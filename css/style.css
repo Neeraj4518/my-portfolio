@@ -100,7 +100,7 @@ background:#081b29 ;
     position: relative;
     width: 100%;
     justify-content: space-between;
-    height: 100vh;
+    height: 90vh;
     background: url("image/backgroundimage.jpg") no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,12 +191,12 @@ background:#081b29 ;
 
 /* About Section */
 .about {
-  min-height: 50vh;            /* full screen height */
+  min-height: 100vh;            /* full screen height */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;          /* vertical centering */
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
   padding: 40px 10%;
   box-sizing: border-box;
 }
@@ -205,7 +205,7 @@ background:#081b29 ;
 .about-img img {
   max-width: 60%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
 }
@@ -226,13 +226,13 @@ background:#081b29 ;
   font-size: 30px;
   font-weight: 600;
   color: #fff;
-  line-height: 2.5;
+  line-height: 1.5;
   margin: 15px 0 25px;
 }
 .about-text p {
   color: aliceblue;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 2.6;
   margin-bottom: 2.5rem;
 }
 
@@ -304,9 +304,10 @@ background:#081b29 ;
 }
 
 #education {
-  padding: 60px 10%;
+  padding: 150px 10%;
   background: #081b29;  /* adjust to match your theme */
   color: #fff;
+  min-height: 80vh;
 }
 #education h2 {
   text-align: center;
@@ -621,11 +622,12 @@ background:#081b29 ;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .projects h2 {
   font-size: 45px;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 700;
   width: 100%;
