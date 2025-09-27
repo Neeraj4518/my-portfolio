@@ -639,23 +639,25 @@ background:#081b29 ;
 
 .projects-list {
   display: flex;
-  gap: 32px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .project-card {
-  border-radius: 16px;
+  border-radius: 12px;
   box-shadow: 0 0 5px #0ef; /* fixed missing shadow parameters */
-  padding: 24px 32px;
-  max-width: 600px;
+  padding: 60px;
+  max-width: 450px;
   flex: 1 1 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: transform 0.2s;
   position: relative;
+
 }
+
 
 .project-card:hover {
   transform: translateY(-5px) scale(1.03);
@@ -665,18 +667,18 @@ background:#081b29 ;
 .project-card h3 {
   font-size: 20px;
   color: #0691e3;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .project-card p {
-  flex-grow: 1;
-  font-size: 20px;
+  flex-wrap: 1;
+  font-size: 1.3rem;
   margin-bottom: 20px;
 }
 
 .project-link {
   display: inline-block;
-  font-size: 15px;
+  font-size: 13px;
   background: #0ef;
   font-weight: 600;
   color: #081b29;
@@ -686,7 +688,6 @@ background:#081b29 ;
   transition: background-color 0.3s, color 0.3s;
   align-self: flex-start;
 }
-
 .project-link:hover {
   background-color: #08c;
   color: #fff;
@@ -694,7 +695,7 @@ background:#081b29 ;
 }
 
 .project-card img {
-  width: 70%;
+  width: 100%;
   height: 40%;
 }
 
@@ -718,7 +719,7 @@ background:#081b29 ;
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px;
   margin: 10px 0;
   border-radius: 10px;
